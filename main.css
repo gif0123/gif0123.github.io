@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-html,body {height:100%;}
 body {background:#f5f5f5; margin: 0%; overflow-y: hidden; overflow-x: hidden;}
 
 /**********pc***********/
@@ -8,10 +7,12 @@ body {background:#f5f5f5; margin: 0%; overflow-y: hidden; overflow-x: hidden;}
 	.floatBox {overflow:hidden;}
 	.floatBox>div {float:left;}
 	.floatBox-col2>div:first-child {width:78%;}
+	.floatBox-col2>div:second-child {width:28%;}
 }
 
 /***********mobile*********/
 @media screen and (max-width:800px){
 	body.noscroll-y {overflow-y:hidden;}
 	.floatBox-col2>div:first-child {height:55%;}
+	.floatBox-col2>div:second-child {height:45%;}
 }
