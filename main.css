@@ -8,17 +8,17 @@ body {background:#f5f5f5; margin: 0%; overflow-y: hidden; overflow-x: hidden;}
 #livechat { float:left; width:25%; height:100%; }
 
 /*PC*/
-@media all and (min-width:1040px) {
+@media all and (min-width:1280px) {
 
 }
 
 /* under 1040px(low PC) */
-@media all and (max-width:1040px) {
+@media all and (max-width:1280px) {
 
 }
 
 /* under 840px(tablet & mobile) */
-@media all and (max-width:840px) {
+@media all and (max-width:1280px) {
 	#container .wrapper { margin-top:0; }
 	#player { width:100%; height:55%; }
 	#livechat { width:100%; height:45%; }
