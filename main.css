@@ -7,7 +7,7 @@ body {background:#f5f5f5; margin: 0%; overflow-y: hidden; overflow-x: hidden;}
 @media all and (min-width:801px){
 	.floatBox {overflow:hidden;}
 	.floatBox>div {float:left;}
-	.floatBox-col2>div {width:50%;}
+	.floatBox-col2>div:first-child {width:78%;}
 }
 
 /***********mobile*********/
