@@ -2,32 +2,30 @@
 
 html,body {height:100%;}
 body {background:#f5f5f5; margin: 0%; overflow-y: hidden; overflow-x: hidden;}
-.wrap {position:relative; width:100%; margin:0 auto;}
 
 /*pc*/
 @media all and (min-width:1281px){
 	.container {display:table; table-layout:fixed; height:100%;}
-	#player {display:table-cell; margin: 0%; width:78%; height:100%;}
-	#livechat {display:table-cell; margin: 0%; width:22%; height:100%;}
+	#player {display:table-cell; width:78%; margin: 0%;}
+	#livechat {display:table-cell; width:22%; margin: 0%;}
+}
+
+/*pc*/
+@media all and (min-width:992px){
+	.container {display:table; table-layout:fixed; height:100%;}
+	#player {display:table-cell; width:78%; margin: 0%;}
+	#livechat {display:table-cell; width:22%; margin: 0%;}
 }
 
 /*tablet*/
-@media screen and (max-width:1280px){
-	.container {display:table; table-layout:fixed; height:100%;}
-	#player {display:table-cell; margin: 0%; width:78%; height:100%;}
-	#livechat {display:table-cell; margin: 0%; width:22%; height:100%;}
+@media screen and (min-width:768px){
+	#player {width:100%; height:45%;}
+	#livechat {width:100%; height:55%;}
 }
 
 /*mobile*/
-@media screen and (max-width:640px){
-	.container {display:static;}
-	#player {margin: 0%; width:100%; height:45%;}
-	#livechat {margin: 0%; width:100%; height:55%;}
+@media screen and (max-width:767px){
+	#player {width:100%; height:45%;}
+	#livechat {width:100%; height:55%;}
 }
 
-/*mobile_min*/
-@media screen and (max-width:480px){
-	.container {display:static;}
-	#player {margin: 0%; width:100%; height:45%;}
-	#livechat {margin: 0%; width:100%; height:55%;}
-}
