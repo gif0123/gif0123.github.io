@@ -12,4 +12,5 @@ body {background:#f5f5f5; margin: 0%; overflow-y: hidden; overflow-x: hidden;}
 
 /***********mobile*********/
 @media screen and (max-width:640px){
+	.floatBox-col2>div:first-child {height:55%;}
 }
