@@ -2,8 +2,6 @@
 
 html,body {height:100%;}
 body {background:#f5f5f5; margin: 0%; overflow-y: hidden; overflow-x: hidden;}
-.container {width:100%;}
-
 
 /**********pc***********/
 @media all and (min-width:801px){
