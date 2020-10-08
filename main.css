@@ -6,13 +6,13 @@ body {background:#f5f5f5; margin: 0%; overflow-y: hidden; overflow-x: hidden;}
 
 /*pc*/
 @media all and (min-width:1200px){
-	#player {width:78%; margin: 0%;}
+	#player {float:left; width:78%; margin: 0%; }
 	#livechat {width:22%; margin: 0%;}
 }
 
 /*tablet*/
 @media screen and (min-width:768px){
-	#player {width:78%; margin: 0%;}
+	#player {float:left; width:78%; margin: 0%;}
 	#livechat {width:22%; margin: 0%;}
 }
 
