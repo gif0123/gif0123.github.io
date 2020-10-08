@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+html,body {height:100%;}
+body {background:#f5f5f5;}
+.wrap {position:relative; width:100%; margin:0 auto;}
+
+/*pc*/
+@media all and (min-width:1281px){
+	.container {display:table; table-layout:fixed; height:100%;}
+	#player {display:table-cell; margin: 0%; width:78%; height:100%;}
+	#livechat {display:table-cell; margin: 0%; width:22%; height:100%;}
+}
+
+/*tablet*/
+@media screen and (max-width:1280px){
+	.container {display:table; table-layout:fixed; height:100%;}
+	#player {display:table-cell; margin: 0%; width:78%; height:100%;}
+	#livechat {display:table-cell; margin: 0%; width:22%; height:100%;}
+}
+
+/*mobile*/
+@media screen and (max-width:640px){
+	#player {margin: 0%; width:100%; height:45%;}
+	#livechat {margin: 0%; width:100%; height:55%;}
+}
