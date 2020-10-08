@@ -5,20 +5,21 @@ body {background:#f5f5f5; margin: 0%; overflow-y: hidden; overflow-x: hidden;}
 #container { overflow:hidden; }
 #container .wrapper { position:relative; }
 #container .wrapper > div > div { float:left; }
-#container .wrapper > div.t_con > div { width:50%; height:100%; }
+#container .wrapper > div:first-child { width:78%; height:100%; }
+#container .wrapper > div.t_con > div { height:100%; }
 
 /*PC*/
-@media all and (min-width:1281px) {
+@media all and (min-width:1040px) {
 
 }
 
 /* under 1040px(low PC) */
-@media all and (max-width:1280px) {
+@media all and (max-width:1040px) {
 
 }
 
 /* under 840px(tablet & mobile) */
-@media all and (max-width:1040px) {
+@media all and (max-width:840px) {
 	#container .wrapper { margin-top:0; }
 	#container .wrapper > div.t_con > div { width:100%; height:50%; }
 }
