@@ -2,7 +2,7 @@ body { background:#f5f5f5; margin: 2%; overflow-y: hidden; overflow-x: hidden; b
 
 #container { overflow:hidden; }
 #container .wrapper { position:relative; }
-#player { float:left; width:78%; }
+#player { float:left; width:78%; max-width:1920px; }
 #livechat { float:left; width:22%; height:100%; }
 
 /* pc */
@@ -13,7 +13,7 @@ body { background:#f5f5f5; margin: 2%; overflow-y: hidden; overflow-x: hidden; b
 /* tablet & mobile */
 @media all and (max-width:1280px) {
 	#container .wrapper { margin-top:0; }
-	#player { width:100%; height:55%; max-width:1920px; }
+	#player { width:100%; height:55%; }
 	#livechat { width:100%; height:45%; }
 	#uchat { width:100%; height:45%; }
 }
