@@ -34,7 +34,14 @@
 				width : 200,
 				height : 110,
 				modal : false,
-				position: { my: "center", at: "top", of: window}
+				position: { my: "center", at: "top", of: window},
+				bottons : {
+					"확인" : fuction(){
+						$(this).dialog("close");
+					}, "취소" : function(){
+						$(this).dialog("close");
+					}
+				}
 			});
 		});
 	</script>
