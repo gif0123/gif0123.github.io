@@ -1,7 +1,7 @@
 body { background:#f5f5f5; margin: 2%; overflow-y: hidden; overflow-x: hidden; background-image: url("/img/niziu_80.png"); background-repeat: no-repeat; background-size: cover; }
 
 #container { overflow:hidden; }
-#container .wrapper { position:relative; }
+#container .wrapper { position:relative; max-width:2500px;}
 #player { float:left; width:78%; }
 #livechat { float:left; width:22%; height:100%; }
 
