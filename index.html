@@ -12,6 +12,9 @@
 <body>
 	<div id="container">
 		<div class="wrapper">
+			<div id="dia_rs" style="text-align:center;font-size:9pt;display:none;">
+				방송관련 개인적인 문의는 이쪽<br /><span style="font-size:10pt;color:blue;font-weight:bold;">https://www.instagram.com/gifking1228/</span>
+			</div>
 			<div class="t_con">
 				<div id="player">
 					<iframe width="100%" height="100%" src="https://player.twitch.tv/?channel=gif0123&parent=gif0123.github.io" frameborder="0" allow="autoplay;encrypted-media" allowfullscreen=""></iframe>
@@ -23,5 +26,22 @@
 			</div>
 		</div>
 	</div>
+	<script> 
+		$(document).ready(function(){
+			$("#dia_rs").dialog({
+				title : "방송 문의",
+				width : 200,
+				height : 110,
+				modal : false,
+				position : {
+					my : "right", 
+					at : "right top", 
+					of : "#livechat"
+				},
+				show : {effect : "blind", duration : 500},
+				hide : {effect : "blind", duration : 500}
+			});
+		});
+	</script>
 </body>		
 </html>
