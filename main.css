@@ -7,14 +7,12 @@ body { background:#f5f5f5; margin: 2%; overflow-y: hidden; overflow-x: hidden; b
 
 /* pc */
 @media all and (min-width:1280px) {
-	#player { float:left; width:78%; height:640px; }
-	#livechat { float:left; width:22%; height:640px; }
+
 }
 
 /* tablet */
 @media all and (max-width:1280px) {
-	#player { float:left; width:78%; height:550px; }
-	#livechat { float:left; width:22%; height:550px; }
+
 }
 
 /* mobile */
